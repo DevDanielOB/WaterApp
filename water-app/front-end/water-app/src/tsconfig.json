@@ -1,0 +1,9 @@
+{
+  // "extends": "ts-config-single-spa",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+  },
+  "files": ["src/App.tsx", "src/index.jsx"],
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "exclude": ["src/**/*.test.ts", "src/**/*.test.tsx"]
+}
