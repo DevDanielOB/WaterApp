@@ -8,7 +8,7 @@ router.get('/user-controller', (req: Request, res: Response) => {
     name: 'teste',
     id: 1
   }
-  res.json(user);
+  res.json(user)
 })
 
 export default router;
